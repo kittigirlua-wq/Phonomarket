@@ -1,0 +1,69 @@
+
+
+
+header h1{
+    color: black;
+    background-color: rgb(255, 0, 0);
+    border-radius: 12px;
+    border: 10px solid rgba(223, 223, 58, 0.782);
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    background-color: rgb(255, 0, 0);
+    border-radius: 12px;
+  
+
+}
+nav a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: rgba(238, 232, 232, 0.773);
+    background-color: rgb(211, 82, 39);
+    border-radius: 12px;
+     border: 3px solid rgba(223, 223, 58, 0.782);
+     text-align: center;
+
+    
+}
+
+body{
+    background-color: rgba(238, 232, 232, 0.544);
+}
+nav{
+    padding: 5px;
+ text-align: center;
+}
+
+main p{
+    color:rgb(255, 255, 255);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 5px solid rgb(255, 187, 0);
+    border-radius: 10px;
+    background-color:  red;
+    text-align: center;
+}
+
+header p{
+    text-align: center;
+}
+
+footer p{
+    text-align: center;
+    background-color: red;
+    color:white;
+    border:5px solid rgb(255, 187, 0);
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    background-color: red;
+    color:white;
+    border:5px solid rgb(255, 187, 0);
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
