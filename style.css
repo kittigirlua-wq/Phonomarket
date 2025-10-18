@@ -1,69 +1,110 @@
-
-
-
-header h1{
-    color: black;
-    background-color: rgb(255, 0, 0);
-    border-radius: 12px;
-    border: 10px solid rgba(223, 223, 58, 0.782);
-    text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(215, 215, 215);
+    color: rgb(0, 0, 0);
+    margin: 0;
 }
 
 header {
-    background-color: rgb(255, 0, 0);
-    border-radius: 12px;
-  
+display: flex;
+align-items: center;
+margin: 10px;
+    padding: 10x;
+    border: 10px solid rgb(235, 174, 61);
+border-radius: 10px;
+background-color: red;
 
+
+ justify-content: center;
+ 
 }
-nav a{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-decoration: none;
-    color: rgba(238, 232, 232, 0.773);
-    background-color: rgb(211, 82, 39);
-    border-radius: 12px;
-     border: 3px solid rgba(223, 223, 58, 0.782);
-     text-align: center;
+
+main h1 {
+   background-color: red; 
+   text-align: center;
+   border-radius: 20px;
+   border: 10px solid rgb(235, 174, 61) ;
+   margin: 20px;
+   color: aliceblue;
+}
+    
+
+.button {
+    
+}
+
+nav {
+    display: flex;
+    background-color: red;
+   justify-content: space-around;
+   border-radius: 9px;
+   border: 6px solid rgb(235, 174, 61) ;
+   margin: 20px;
+
 
     
 }
 
-body{
-    background-color: rgba(238, 232, 232, 0.544);
-}
-nav{
-    padding: 5px;
- text-align: center;
-}
-
-main p{
-    color:rgb(255, 255, 255);
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    border: 5px solid rgb(255, 187, 0);
-    border-radius: 10px;
-    background-color:  red;
-    text-align: center;
-}
-
-header p{
-    text-align: center;
-}
-
-footer p{
-    text-align: center;
-    background-color: red;
-    color:white;
-    border:5px solid rgb(255, 187, 0);
-    border-radius: 10px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-a {
+.nav-link {
     text-decoration: none;
-    background-color: red;
-    color:white;
-    border:5px solid rgb(255, 187, 0);
-    border-radius: 10px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       color: black;
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
 
+h1 {
+
+}
+
+p {
+    font-size: 20px;
+}
+
+.info {
+   display: flex;
+   flex-wrap: wrap;
+   padding: 20px;
+}
+
+article {
+   background-color: red;
+padding: 20px;
+margin: 20px;
+width: 400px;
+height: 700;
+border: 10px solid rgb(235, 174, 61);
+border-radius: 20px;
+
+
+}
+
+.article-but {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(235, 70, 61);
+    border-radius: 3px;
+    border: 4px solid rgb(235, 174, 61);
+    padding-bottom:4px;
+    margin-left: 155px;
+    font-size: 20px;
+    
+   
+}
+
+footer {
+display: flex;
+
+}
+
+footer a {
+    
+}
+
+footer p {
+}
+
+.imgphono {
+    background-color: red;
+      border: 10px solid rgb(235, 174, 61);
+      border-radius: 15px;
+      margin: 10px;
 }
