@@ -58,6 +58,7 @@ p {
    display: flex;
    flex-wrap: wrap;
    padding: 20px;
+    justify-content:center;
 }
 
 article {
@@ -102,4 +103,8 @@ footer p {
       border: 10px solid rgb(235, 174, 61);
       border-radius: 15px;
       margin: 10px;
+}
+
+.im{
+    text-align-center;
 }
