@@ -28,9 +28,7 @@ main h1 {
 }
     
 
-.button {
-    
-}
+
 
 nav {
     display: flex;
@@ -51,9 +49,6 @@ nav {
        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
-h1 {
-
-}
 
 p {
     font-size: 20px;
@@ -70,7 +65,7 @@ article {
 padding: 20px;
 margin: 20px;
 width: 400px;
-height: 120;
+height: 500px;
 border: 10px solid rgb(235, 174, 61);
 border-radius: 20px;
 
@@ -86,7 +81,7 @@ border-radius: 20px;
     padding-bottom:4px;
     margin-left: 155px;
     font-size: 20px;
-    
+    margin-top:20px;
    
 }
 
